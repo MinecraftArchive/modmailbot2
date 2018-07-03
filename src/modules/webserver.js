@@ -84,5 +84,5 @@ module.exports = () => {
     }
   });
 
-  server.listen(config.port);
+  server.listen(process.env.PORT || 5000);
 };
