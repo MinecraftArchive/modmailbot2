@@ -66,8 +66,8 @@ const defaultConfig = {
 
   "relaySmallAttachmentsAsAttachments": false,
 
-  "port": 8890,
-  "url": null,
+  "port": 5000,
+  "url": false,
 
   "dbDir": path.join(__dirname, '..', 'db'),
   "knex": null,
